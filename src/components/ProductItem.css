@@ -1,0 +1,9 @@
+.productItem {
+    border: 2px solid yellow;
+    background-color: aqua;
+}
+
+/* Button is located in each productItem class */
+#button {
+    background-color: orange;
+}

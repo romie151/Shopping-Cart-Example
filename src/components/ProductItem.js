@@ -1,14 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
+import './ProductItem.css'
 
 const ProductItem = ({ product, onAddToCartClicked }) => (
-  <div style={{ marginBottom: 20 }}>
+  //Container for each product 
+  <div className="productItem" style={{ marginBottom: 20 }}>
     <Product
       title={product.title}
       price={product.price}
-      inventory={product.inventory} />
-    <button
+      inventory={product.inventory} /> 
+    <button id="button"
       onClick={onAddToCartClicked}
       disabled={product.inventory > 0 ? '' : 'disabled'}>
       {product.inventory > 0 ? 'Add to cart' : 'Sold Out'}
