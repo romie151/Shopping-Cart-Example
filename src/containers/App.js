@@ -7,7 +7,7 @@ const App = () => (
   <div>
     <div id="nav">
       <h2 id="storeName">Acme Store</h2>
-      <svg id="shoppingCart" width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+      <svg onClick={CartContainer} id="shoppingCart" width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
         <g id="v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="Desktop" transform="translate(-1054.000000, -75.000000)" fill="#292929" fill-rule="nonzero">
             <g id="Header" transform="translate(82.000000, 55.000000)">
@@ -25,7 +25,7 @@ const App = () => (
 
     <hr />
     <ProductsContainer />
-    <hr />
+    {/* <hr /> */}
     <CartContainer />
   </div>
 )
