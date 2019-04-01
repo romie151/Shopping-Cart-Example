@@ -1,9 +1,17 @@
 .productItem {
-    border: 2px solid yellow;
-    background-color: aqua;
+    /* border: 2px solid yellow; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.productItem:hover {
+    background-color: white;
+    border: solid 1px lightgrey;
+    box-shadow: 0px 4px 5px #979797;
 }
 
 /* Button is located in each productItem class */
 #button {
+    float: left;
     background-color: orange;
 }
