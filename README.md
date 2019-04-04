@@ -24,14 +24,14 @@ Visual Studio Code
 React
 
 ## Process 
--Learn the code base of the boilerplate code
--Work on Each Break Point
-    -Nav bar
-    -Products
-        -Title
-        -Price
-        -Quantity
-        -Buttons
-        -Images
-    -Shopping Cart
--Responsiveness 
+- Learn the code base of the boilerplate code
+- Work on Each Break Point
+    - Nav bar
+    - Products
+        - Title
+        - Price
+        - Quantity
+        - Buttons
+        - Images
+    - Shopping Cart
+- Responsiveness 
