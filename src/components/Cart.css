@@ -1,0 +1,36 @@
+.container {
+    /* border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    top: 20%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    right: 2%;
+    left: 68%;
+    align-content: center;
+    border: solid 1px #979797;
+    box-shadow: 0px 4px 5px #979797;
+    border-radius: 10px;
+    height: 50%;
+}
+
+#add {
+    color: #9B9B9B;
+    
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+#btn {
+    border: 2px solid green;
+    float: left;
+    background-color: #5E97D1;
+    border-radius: 25px;
+    width: 105px;
+    height: 30px;
+    color: #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    float: unset;
+}

@@ -4,7 +4,7 @@ import './ProductList.css'
 
 const ProductsList = ({ title, children }) => (
   <div className="outside">
-    <h3 className="titles">{title}</h3>
+    {/* <h3 className="titles">{title}</h3> */}
     <div className="stuff">{children}</div>
   </div>
 )
