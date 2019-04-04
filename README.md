@@ -1,8 +1,8 @@
-##Shopping Cart 
+## Shopping Cart 
 A shopping cart app
 
 
-##Installation
+## Installation
 To install dependencies, use the package manager [Yarn](https://yarnpkg.com/en/):
 
 ```
@@ -19,11 +19,11 @@ yarn start
 React/Redux.
 CSS Grids for responsive web design. 
 
-##Platform 
+## Platform 
 Visual Studio Code
 React
 
-##Process 
+## Process 
 -Learn the code base of the boilerplate code
 -Work on Each Break Point
     -Nav bar
