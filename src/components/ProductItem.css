@@ -1,9 +1,52 @@
 .productItem {
-    border: 2px solid yellow;
-    background-color: aqua;
+    /* border: 2px solid yellow; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.productItem:hover {
+    background-color: white;
+    border: solid 1px #979797;
+    box-shadow: 0px 4px 5px #979797;
 }
 
 /* Button is located in each productItem class */
-#button {
-    background-color: orange;
+#Chronograph {
+    float: left;
+    background-color: #5E97D1;
+    border-radius: 25px;
+    width: 105px;
+    height: 30px;
+    color: #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+#Quartz {
+    float: left;
+    background-color: #5E97D1;
+    border-radius: 25px;
+    width: 105px;
+    height: 30px;
+    color: #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+}
+
+#Weekender {
+    float: left;
+    background-color: #5E97D1;
+    border-radius: 25px;
+    width: 105px;
+    height: 30px;
+    color: #D8D8D8;
+    font-family: Arial, Helvetica, sans-serif;
+    position:absolute;
+}
+
+.stuff {
+    /* border: 2px solid hotpink; */
 }

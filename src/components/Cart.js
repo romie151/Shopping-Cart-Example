@@ -15,7 +15,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
       />
     )
   ) : (
-    <em>Please add some products to cart.</em>
+    <em id="add">Please add some products to cart.</em>
   )
 
   return (
@@ -23,7 +23,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
       <h3 className="title">Your Cart</h3>
       <div>{nodes}</div>
       <p>Total: &#36;{total}</p>
-      <button onClick={onCheckoutClicked}
+      <button id="btn" onClick={onCheckoutClicked}
         disabled={hasProducts ? '' : 'disabled'}>
         Checkout
       </button>

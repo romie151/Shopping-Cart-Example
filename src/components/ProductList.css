@@ -1,0 +1,21 @@
+.outside {
+    /* border: 2px solid red; */
+    margin: 85px 50px auto 50px;
+    /* border-top: solid 1px #DADADA; */
+    padding-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    /* this is the same as grid-template-rows: 300px 300px; */
+    grid-template-rows: repeat(2, 300px);
+
+}
+
+#line {
+    /* margin: 85px 50px auto 50px; */
+    /* border: solid 1px #DADADA; */
+    /* padding-top: 30px; */
+    /* position: fixed; */
+    /* z-index: 1; */
+    /* width: 100%; */
+    /* left: 0; */
+    /* right: 0; */
+}

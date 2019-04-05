@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 import './ProductItem.css'
+import CartContainer from './Cart.js'
 
 const ProductItem = ({ product, onAddToCartClicked }) => (
   //Container for each product 
@@ -9,11 +10,12 @@ const ProductItem = ({ product, onAddToCartClicked }) => (
     <Product
       title={product.title}
       price={product.price}
-      inventory={product.inventory} /> 
-    <button id="button"
-      onClick={onAddToCartClicked}
+      inventory={product.inventory}
+    />
+    <button id={product.title}
+      onClick={CartContainer}
       disabled={product.inventory > 0 ? '' : 'disabled'}>
-      {product.inventory > 0 ? 'Add to cart' : 'Sold Out'}
+      {product.inventory > 0 ? 'ADD TO CART' : 'SOLD OUT'}
     </button>
   </div>
 )
